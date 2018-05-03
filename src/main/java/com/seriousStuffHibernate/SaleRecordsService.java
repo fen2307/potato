@@ -2,8 +2,8 @@ package com.seriousStuffHibernate;
 
 import com.seriousStuffHibernate.Entities.SaleRecord;
 import com.seriousStuffHibernate.Implementation.SaleRecordsDaoImpl;
-
 import java.util.List;
+
 
 public class SaleRecordsService {
     private static SaleRecordsDaoImpl saleRecordsDao;

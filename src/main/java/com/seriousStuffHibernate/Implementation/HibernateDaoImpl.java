@@ -1,10 +1,11 @@
 package com.seriousStuffHibernate.Implementation;
 
 import com.seriousStuffHibernate.HibernateUtils;
+import com.seriousStuffHibernate.Interfaces.IHibernateDao;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-public class HibernateDaoImpl {
+public class HibernateDaoImpl implements IHibernateDao{
     private Session currentSession;
 
     private Transaction currentTransaction;

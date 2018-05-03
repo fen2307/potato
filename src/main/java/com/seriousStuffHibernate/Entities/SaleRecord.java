@@ -113,7 +113,7 @@ public class SaleRecord {
     @Override
     public String toString() {
         return "SaleRecord{" +
-//                "saleId='" + saleId + '\'' +
+                "saleId='" + saleId + '\'' +
                 ", street='" + street + '\'' +
                 ", city='" + city + '\'' +
                 ", zip='" + zip + '\'' +
