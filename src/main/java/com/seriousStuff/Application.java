@@ -27,6 +27,6 @@ public class Application implements CommandLineRunner {
                 "DROP TABLE IF EXISTS customers ");
         jdbcTemplate.execute("USE Tutorial "+
                 "CREATE TABLE customers(" +
-                "id int, first_name VARCHAR(255), last_name VARCHAR(255))");
+                "id int, first_name VARCHAR(255), last_name VARCHAR(255), comment VARCHAR(255))");
     }
 }
